@@ -44,7 +44,9 @@
 }
 
 /* Main Styles Start here */
-
+nav{
+    padding: 58px 0 32px;
+}
 .logo-area h4{
     color: #E6533C;
     font-size: 2.25rem;
