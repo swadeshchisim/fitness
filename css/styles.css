@@ -17,6 +17,9 @@
 .inter-bold{
     font-weight: 700;
 }
+.inter-extrabold{
+    font-weight: 800;
+}
 
 /* Custom font */
 @font-face {
@@ -32,4 +35,19 @@
 .container{
     max-width: 1060px;
     margin: 0 auto;
+}
+
+/* Global styles for margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Styles Start here */
+
+.logo-area h4{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.638rem;
 }
