@@ -27,3 +27,9 @@
 .miama{
     font-family: 'Miama', sans-serif;
 }
+
+/* Global Styles */
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
