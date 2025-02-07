@@ -42,7 +42,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    box-sizing: content-box;
+}
 /* Main Styles Start here */
 nav{
     padding: 58px 0 32px;
@@ -52,4 +54,38 @@ nav{
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.638rem;
+}
+
+/* Menu item styles */
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-area{
+    /* max-width: 456px; */
+    height: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+.list-item{
+    list-style: none;
+    text-align: center;
+}
+.list-item > a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    line-height: 1.038rem;
+    padding: 12px 20px;
+}
+.list-item >a:hover{
+    background: #E6533C;
+    border-radius: 50px;
 }
