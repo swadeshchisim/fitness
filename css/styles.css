@@ -85,7 +85,8 @@ nav{
     line-height: 1.038rem;
     padding: 12px 20px;
 }
-.list-item >a:hover{
+.list-item .active{
+    color: #fff;
     background: #E6533C;
     border-radius: 50px;
 }
