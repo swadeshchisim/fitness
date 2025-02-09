@@ -20,21 +20,29 @@
 .inter-extrabold{
     font-weight: 800;
 }
-
-/* Custom font */
-@font-face {
-    font-family: 'Miama', sans-serif;
-    src: url('../fonts/Miama.otf') format('otf');
-    font-style: normal;
-}
-.miama{
-    font-family: 'Miama', sans-serif;
+.inter-black{
+    font-weight: 900;
 }
 
 /* Global Styles */
 .container{
     max-width: 1060px;
     margin: 0 auto;
+}
+.primary-bg{
+    background: #E6533C;
+}
+.custom-btn{
+    color: #fff;
+    border: 0;
+    padding: 16px 40px;
+    border-radius: 42px;
+}
+.transparent-btn{
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-left: 14px;
 }
 
 /* Global styles for margin and padding */
@@ -93,4 +101,27 @@ nav{
     color: #fff;
     background: #E6533C;
     border-radius: 50px;
+}
+
+/* Banner Styles */
+.banner-text{
+    width: 520px;
+}
+.banner-title{
+    color: #fff;
+    font-size: 4.875rem;
+    line-height: 93px;
+}
+.custom-style{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.875rem;
+    font-weight: 400;
+    line-height: 93px;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 28px 0;
 }
