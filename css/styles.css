@@ -46,6 +46,9 @@ body{
     box-sizing: content-box;
 }
 /* Main Styles Start here */
+header{
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%), #000;
+}
 nav{
     padding: 58px 0 32px;
 }
@@ -80,6 +83,7 @@ nav{
     text-align: center;
 }
 .list-item > a {
+    color: #fff;
     font-size: 1.125rem;
     text-decoration: none;
     line-height: 1.038rem;
