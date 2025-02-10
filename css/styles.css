@@ -105,8 +105,12 @@ nav{
 }
 
 /* Toggle icon styles */
+.toggle-icon{
+    display: none;
+}
 .toggle-icon i{
     color: #fff;
+    font-size: 1.5rem;
 }
 
 /* Banner Styles */
@@ -198,8 +202,17 @@ nav{
 
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
+    nav{
+        padding: 20px;
+    }
     .menu-area{
+        margin-right: 0;
+    }
+    .menu-item{
         display: none;
+    }
+    .toggle-icon{
+        display: block;
     }
     .banner-area{
         display: none;
