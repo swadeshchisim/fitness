@@ -297,6 +297,19 @@ td{
     color: rgba(255, 255, 255, 0.50);
 }
 
+/* Calculate your BMI styles */
+input{
+    padding: 12px 20px;
+}
+.gender-input-area{
+    position: relative;
+}
+.gender-input-area i{
+    color: #fff;
+    opacity: 0.5;
+    position: absolute;
+    right: -20px;
+}
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
     header{
