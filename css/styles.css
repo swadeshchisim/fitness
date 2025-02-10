@@ -58,7 +58,8 @@
     color: #fff;
     font-size: 3rem;
     font-weight: 900;
-    line-height: 57.6px
+    line-height: 57.6px;
+    margin-bottom: 14px;
 }
 .section-description{
     color: rgba(255, 255, 255, 0.50);
@@ -221,6 +222,18 @@ nav{
 main{
     background: #000;
 }
+
+/* Change your habit */
+.habit-area{
+    text-align: center;
+}
+.habit-description{
+    width: 671px;
+    margin: 0 auto;
+}
+
+
+
 
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
