@@ -319,7 +319,8 @@ main{
         line-height: 38.4px;
     }
     .section-description{
-        width: 100%;
+        width: 75%;
+        margin: 0 auto;
     }
 
     /* Join Now Styles */
