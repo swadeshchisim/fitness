@@ -280,6 +280,23 @@ main{
     padding: 88px 0;
 }
 
+/* BMI Chart Styles */
+.bmi-calculator-title{
+    font-size: 1.75rem;
+    line-height: 33.6px;
+}
+table{
+    margin-top: 52px;
+}
+table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+    padding: 13px 18px;
+}
+td{
+    color: rgba(255, 255, 255, 0.50);
+}
+
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
     header{
