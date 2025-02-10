@@ -253,7 +253,16 @@ main{
 }
 
 /* Join now styles */
+.join-now-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background: #222;
+    border-radius: 18px;
+}
 .join-now-description{
+    width: 443px;
     padding: 14px 0 34px;
 }
 .join-now-img{
