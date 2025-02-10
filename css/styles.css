@@ -68,6 +68,17 @@
     letter-spacing: 0.3px;
 }
 
+/* Habit styles */
+.habit img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.habit-info-title{
+    margin-bottom: 6px;
+}
+
+
+
 /* Global styles for margin and padding */
 *{
     margin: 0;
