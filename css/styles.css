@@ -69,6 +69,15 @@
 }
 
 /* Habit styles */
+.habits-area{
+    padding: 100px 0;
+}
+.habits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding-top: 58px;
+}
 .habit img{
     border-radius: 50%;
     margin-bottom: 30px;
