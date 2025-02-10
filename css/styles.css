@@ -287,4 +287,19 @@ main{
     .transparent-btn{
         margin-left: 0;
     }
+
+    /* Habits Style */
+    .habits-area{
+        padding: 0;
+    }
+    .habits{
+        grid-template-columns: 1fr;
+    }
+    .section-title{
+        font-size: 2rem;
+        line-height: 38.4px;
+    }
+    .section-description{
+        width: 100%;
+    }
 }
