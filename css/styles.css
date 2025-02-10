@@ -38,6 +38,7 @@
     border: 0;
     padding: 16px 40px;
     border-radius: 42px;
+    margin-bottom: 10px;
 }
 .transparent-btn{
     color: #fff;
@@ -224,6 +225,9 @@ nav{
         line-height: 43px;
     }
     .banner-image-area{
-        display: none;
+        width: 100%;
+    }
+    .transparent-btn{
+        margin-left: 0;
     }
 }
