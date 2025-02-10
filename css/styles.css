@@ -108,6 +108,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 60px;
 }
 .banner-text{
     width: 520px;
@@ -131,8 +132,33 @@ nav{
     padding: 28px 0;
 }
 
+/* Banner Image styles */
+.banner-image-area{
+    width: 560px;
+}
+.banner-image-container{
+    display: flex;
+    justify-content: center;
+}
+/* Banner Video Info Styles */
 .video-container{
     display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.video-info-1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 23px;
+    position: absolute;
+    bottom: 63px;
+}
+.video-info-bg{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
 }
 .tomato-shape{
     width: 40px;
@@ -144,7 +170,21 @@ nav{
     font-size: 1.5rem;
     line-height: 24px;
     letter-spacing: 0.3px;
+    margin-bottom: 8px;
 }
 .video-text{
     color: rgba(239, 237, 232, 0.65);
+}
+.video-info-2{
+    padding: 20px 23px;
+    position: absolute;
+    bottom: 357px;
+    right: 0;
+}
+.video-info-2 h3{
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
