@@ -321,4 +321,11 @@ main{
     .section-description{
         width: 100%;
     }
+
+    /* Join Now Styles */
+    .join-now-area{
+        flex-direction: column;
+        margin: 20px;
+        gap: 30px;
+    }
 }
