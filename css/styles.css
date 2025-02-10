@@ -104,6 +104,11 @@ nav{
     border-radius: 50px;
 }
 
+/* Toggle icon styles */
+.toggle-icon i{
+    color: #fff;
+}
+
 /* Banner Styles */
 .banner-area{
     display: flex;
@@ -188,4 +193,15 @@ nav{
     line-height: 40px;
     letter-spacing: 1px;
     margin-bottom: 5px;
+}
+
+
+/* Media Query Styles for Small Device */
+@media only screen and (max-width: 577px){
+    .menu-area{
+        display: none;
+    }
+    .banner-area{
+        display: none;
+    }
 }
