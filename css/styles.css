@@ -24,10 +24,17 @@
     font-weight: 900;
 }
 
+
 /* Global Styles */
 .container{
     max-width: 1060px;
     margin: 0 auto;
+}
+.text-white{
+    color: #fff;
+}
+.text-center{
+    text-align: center;
 }
 .primary-bg{
     background: #E6533C;
@@ -45,6 +52,19 @@
     border: 1px solid #fff;
     background: transparent;
     margin-left: 14px;
+}
+/* Section title */
+.section-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 57.6px
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.875rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 /* Global styles for margin and padding */
@@ -197,6 +217,10 @@ nav{
     margin-bottom: 5px;
 }
 
+/* Main Styles Starts Here */
+main{
+    background: #000;
+}
 
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
