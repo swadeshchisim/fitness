@@ -361,7 +361,60 @@ form > div {
     bottom: 16px;
 }
 
+/* Footer Styles */
+footer{
+    background: #222;
+}
+.footer-content{
+    display: flex;
+    gap: 102px;
+    padding: 66px 0 79px;
+}
+.footer-info{
+    display: flex;
+    gap: 152px;
+}
+.footer-logo{
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-style: italic;
+    line-height: 84px
+}
+.footer-description{
+    width: 433px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: .875rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 2rem;
+    line-height: 38.4px;
+    margin-bottom: 39px;
+}
 
+/* footer menu styles */
+.footer-menu li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-menu a{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.5rem;
+    line-height: 27.6px;
+    text-decoration: none;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.10);;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.25rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 36px 0;
+}
 
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
