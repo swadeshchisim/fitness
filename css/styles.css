@@ -361,6 +361,8 @@ form > div {
     bottom: 16px;
 }
 
+
+
 /* Media Query Styles for Small Device */
 @media only screen and (max-width: 577px){
     header{
