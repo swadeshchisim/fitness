@@ -482,4 +482,14 @@ hr{
         justify-items: center;
         margin: 20px;
     }
+
+    /* Footer Styles */
+    .footer-content{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-info{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
