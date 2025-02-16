@@ -550,7 +550,22 @@ hr{
 
 /* Media Query Styles fo medium device */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .nav-area{
+        padding: 52px 30px;
+    }
+    .menu-area{
+        margin-right: 0;
+    }
+    .menu-item{
+        gap: 0;
+    }
+    .list-item > a{
+        padding: 8px 20px;
+    }
     .banner-area{
         flex-direction: column;
+    }
+    main,footer{
+        display: none;
     }
 }   
