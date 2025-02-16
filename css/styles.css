@@ -543,6 +543,9 @@ hr{
         flex-direction: column;
         gap: 20px;
     }
+    .footer-description{
+        width: 100%;
+    }
 }
 
 /* Media Query Styles fo medium device */
@@ -550,6 +553,4 @@ hr{
     .banner-area{
         flex-direction: column;
     }
-}   footer{
-    display: none;
-}
+}   
