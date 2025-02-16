@@ -580,7 +580,15 @@ hr{
         right: 62px;
         bottom: 428px;
     }
-    main,footer{
+    /* Change your habit styles */
+    .habits-area{
+        padding: 100px 90px;
+    }
+    .habits{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    footer{
         display: none;
     }
 }   
