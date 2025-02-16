@@ -445,9 +445,12 @@ hr{
 }
 
 /* Media Query Styles for Small Device */
-@media only screen and (max-width: 577px){
+@media only screen and (max-width: 576px){
     header{
         padding: 20px;
+    }
+    .nav-area{
+        padding-top: 32px;
     }
     .menu-area{
         border: 0;
@@ -483,6 +486,9 @@ hr{
     }
     .habits{
         grid-template-columns: 1fr;
+    }
+    .section-heading{
+        width: 100%;
     }
     .section-title{
         font-size: 2rem;
@@ -533,4 +539,13 @@ hr{
         flex-direction: column;
         gap: 20px;
     }
+}
+
+/* Media Query Styles fo medium device */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .banner-area{
+        flex-direction: column;
+    }
+}   main, footer{
+    display: none;
 }
