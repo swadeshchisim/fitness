@@ -550,6 +550,7 @@ hr{
 
 /* Media Query Styles fo medium device */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+    /* Nav Styles */
     .nav-area{
         padding: 52px 30px;
     }
@@ -562,11 +563,22 @@ hr{
     .list-item > a{
         padding: 8px 20px;
     }
+    /* Banner Styles */
     .banner-area{
         flex-direction: column;
     }
     .banner-text{
         width: 600px;
+    }
+
+    /* Banner image area styles */
+    .video-info-1{
+        left: 32px;
+        bottom: 142px;
+    }
+    .video-info-2{
+        right: 62px;
+        bottom: 428px;
     }
     main,footer{
         display: none;
