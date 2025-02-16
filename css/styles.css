@@ -309,6 +309,9 @@ td{
 .bmi-calculator{
     width: 577px;
 }
+.bmi-calculator > .section-description{
+    padding: 14px 0 34px;
+}
 
 /* Calculate your BMI styles */
 form {
@@ -497,7 +500,20 @@ hr{
         gap: 30px;
     }
     .bmi-calculator-area{
-        display: none;
+        padding: 20px;
+    }
+    .bmi-calculator-content-area{
+        flex-direction: column;
+        gap: 42px;
+    }
+    .bmi-calculator-area .section-description{
+        margin: 0;
+    }
+    .bmi-calculator{
+        width: 100%;
+    }
+    .half-width-input, .activity-selection{
+        width: 100%;
     }
 
 
