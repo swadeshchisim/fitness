@@ -565,6 +565,9 @@ hr{
     .banner-area{
         flex-direction: column;
     }
+    .banner-text{
+        width: 600px;
+    }
     main,footer{
         display: none;
     }
