@@ -655,6 +655,8 @@ hr{
 
     /* Join now ares styles */
     .join-now-area{
+        flex-direction: column;
+        gap: 20px;
         padding: 40px 43px 40px 54px;
         margin: 30px;
     }
@@ -663,7 +665,7 @@ hr{
         line-height: 43px;
     }
     .join-now-description{
-        width: 262px;
+        width: 100%;
     }
     .join-now-img {
         width: 256px;
