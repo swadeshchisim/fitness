@@ -633,7 +633,16 @@ hr{
         padding: 0 30px;
         gap: 62px;
     }
-    #meet-our-team-area, footer{
+
+    /* Meet our team styles */
+    .teams{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 30px;
+    }
+    .team {
+        width: 100%;
+    }
+     footer{
         display: none;
     }
 }   
