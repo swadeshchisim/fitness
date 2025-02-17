@@ -274,10 +274,14 @@ main{
 }
 .join-now-img{
     width: 366px;
+    height: 312px;
+    overflow: hidden;
+    border-radius: 18px;
 }
 .join-now-img img{
     width: 100%;
-    border-radius: 18px;
+    object-fit: cover;
+    transform: scale(3) translate(-13%, 18%);
 }
 
 /* BMI Calculator Area Styles */
