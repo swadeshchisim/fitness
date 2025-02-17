@@ -591,6 +591,9 @@ hr{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
+    .habit-description{
+        width: 100%;
+    }
 
     /* Join now ares styles */
     .join-now-area{
