@@ -214,6 +214,9 @@ nav{
     backdrop-filter: blur(10px);
 }
 .tomato-shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -485,6 +488,30 @@ hr{
     .banner-image-area{
         width: 100%;
     }
+    /* Banner Video info */
+    .video-info-1{
+        left: 18px;
+        bottom: 236px;
+    }
+    .video-info-1 h3{
+        font-size: 1.134rem;
+    }
+    .video-info-1 p{
+        font-size: 0.756rem;
+    }
+    .video-info-2{
+        padding: 12px 18px;
+        bottom: 436px;
+        right: 38px;
+    }
+    .video-info-2 h3{
+        font-size: 1.875rem;
+    }
+    .video-info-2 p{
+        font-size: 0.614rem;
+        line-height: 15.12px;
+        letter-spacing: 0.756px;
+    }
     .transparent-btn{
         margin-left: 0;
     }
@@ -505,8 +532,8 @@ hr{
         line-height: 38.4px;
     }
     .section-description{
-        width: 75%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0;
     }
 
     /* Join Now Styles */
@@ -520,6 +547,7 @@ hr{
     }
     .bmi-calculator-area{
         padding: 20px;
+        margin: 0 20px;
     }
     .bmi-calculator-content-area{
         flex-direction: column;
@@ -564,13 +592,22 @@ hr{
         padding: 52px 30px;
     }
     .menu-area{
+        border: 0;
         margin-right: 0;
     }
     .menu-item{
-        gap: 0;
+        display: none;
+    }
+    .toggle-icon{
+        display: block;
     }
     .list-item > a{
         padding: 8px 20px;
+    }
+    .section-heading{
+        width: 100%;
+        padding: 30px;
+        margin: 0;
     }
     /* Banner Styles */
     .banner-area{
