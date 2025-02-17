@@ -286,6 +286,10 @@ main{
 
 /* BMI Chart Styles */
 .bmi-calculator-content-area{
+    background: #222;
+    padding: 50px 0;
+}
+.bmi-calculator-content{
     display: flex;
     justify-content: space-between;
 }
