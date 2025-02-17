@@ -363,6 +363,12 @@ select:focus{
     background: #1A1A1A;
 }
 
+/* Calulate button */
+.calculate-btn{
+    width: 224px;
+    margin-top: 34px;
+}
+
 /* Meet Our Team Styles */
 #meet-our-team-area{
     padding: 88px 0;
@@ -619,6 +625,13 @@ hr{
         object-fit: cover;
         object-position: 78% 100%;
         transform: scale(2) translate(0%, 10%);
+    }
+
+    /* BMI Calculator Styles */
+    .bmi-calculator-content{
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 62px;
     }
     #meet-our-team-area, footer{
         display: none;
