@@ -689,12 +689,17 @@ hr{
     }
 
     /* Meet our team styles */
+    #meet-our-team-area .section-heading{
+        width: 90%;
+    }
     .teams{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         margin: 0 30px;
+        gap: 30px;
     }
     .team {
         width: 100%;
+        height: 100%;
     }
      footer{
         display: none;
