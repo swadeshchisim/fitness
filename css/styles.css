@@ -545,13 +545,15 @@ hr{
     .join-now-text .join-now-description{
         margin: 0;
     }
-    .bmi-calculator-area{
+
+    /* BMI Calculator styles */
+    .bmi-calculator-area .section-heading{
         padding: 20px;
-        margin: 0 20px;
     }
-    .bmi-calculator-content-area{
+    .bmi-calculator-content{
         flex-direction: column;
         gap: 42px;
+        padding: 20px;
     }
     .bmi-calculator-area .section-description{
         margin: 0;
